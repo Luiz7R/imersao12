@@ -1,0 +1,9 @@
+sudo service docker start // start docker
+
+docker compose up -d // iniciar container
+
+docker compose ps // verificar se iniciou
+
+docker exec -it simulador bash // entrar no container // entrar terminal = bash
+
+docker exec -it kafka-kafka-1 bash
